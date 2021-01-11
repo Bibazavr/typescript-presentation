@@ -1,3 +1,7 @@
+# For what?
+
+This is mini presentation for tech talk about TypeScript based on reveal.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

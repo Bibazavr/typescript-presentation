@@ -1799,6 +1799,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/reveal@^3.3.33":
+  version "3.3.33"
+  resolved "https://registry.yarnpkg.com/@types/reveal/-/reveal-3.3.33.tgz#e5448f6b4e6734ec3ea4ee85211bb9313a879044"
+  integrity sha512-lKbezA9Oa5LfdSRwFDc/FHEGH4+FjiXh/a/PCSZAmN+KCeQJL/3ClOdAQwOxt3zdHc8XyioT+cNvIOletwRI7A==
+
 "@types/source-list-map@*":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@types/source-list-map/-/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
@@ -9392,6 +9397,11 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
+
+reveal.js@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-4.1.0.tgz#db87a754b03810584114e902b2702e96ee1ca63c"
+  integrity sha512-lYOMhxSWgq5jtgspF7eRL0d2rBnHO/VGZ4/qp46yu+eGoWqJkYHEuepEXzx71M8MI6Rf8HBYWaTnKi5uHWcU1Q==
 
 rework-visit@1.0.0:
   version "1.0.0"
