@@ -24,7 +24,7 @@
     "build": "yarn react-scripts build",
     "test": "yarn react-scripts test",
     "eject": "yarn react-scripts eject",
-    "heroku-prebuild": "yarn build",
+    "heroku-prebuild": "yarn install && yarn build",
     "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
     "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
   },
