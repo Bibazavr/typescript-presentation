@@ -25,6 +25,20 @@ let deck = new Reveal({
 })
 
 deck.initialize({
+    // The "normal" size of the presentation, aspect ratio will
+    // be preserved when the presentation is scaled to fit different
+    // resolutions. Can be specified using percentage units.
+    width: 1480,
+    height: 1024,
+
+    // Factor of the display size that should remain empty around
+    // the content
+    margin: 0.01,
+
+    // Bounds for smallest/largest possible scale to apply to content
+    minScale: 1,
+    maxScale: 5.0,
+
     // Display presentation control arrows
     controls: true,
 
@@ -55,7 +69,7 @@ deck.initialize({
     // number for the current slide. The function should take in a slide
     // object and return an array with one string [slideNumber] or
     // three strings [n1,delimiter,n2]. See #formatSlideNumber().
-    slideNumber: false,
+    slideNumber: "c/t",
 
     // Can be used to limit the contexts in which the slide number appears
     // - "all":      Always show the slide number
@@ -69,7 +83,7 @@ deck.initialize({
 
     // Add the current slide number to the URL hash so that reloading the
     // page/copying the URL will return you to the same slide
-    hash: false,
+    hash: true,
 
     // Flags if we should monitor the hash and change slides accordingly
     respondToHashChanges: true,

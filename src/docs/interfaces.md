@@ -1,0 +1,28 @@
+## Interfaces Example
+```typescript
+export type Option = { label: string, id: number, }
+
+export interface PropsSample {
+    options: Option[]
+}
+```
+
+
+
+## Interfaces Usage
+```typescript
+export const Sample = (props: PropsSample): 
+    void | React.ReactElement => {
+    
+    if (props.options.length === 0)
+        return
+    
+    return <div>
+        {
+            props.options.map(opt => {
+                return <div key={opt.id}>{opt.label}</div>
+            })
+        }
+    </div>
+}
+```

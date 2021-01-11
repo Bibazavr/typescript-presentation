@@ -2,25 +2,22 @@ import React from 'react';
 import './App.css';
 import 'reveal.js/dist/reveal.css'
 import 'reveal.js/dist/theme/black.css'
+// @ts-ignore
+import recursion from './docs/recursion.md'
+// @ts-ignore
+import basics from './docs/basics.md'
+// @ts-ignore
+import interfaces from './docs/interfaces.md'
+// @ts-ignore
+import generics from './docs/generics.md'
 
 function App() {
     return (
-        <div className="slides">
-            <section>
-                <h2>Examples of embedded Video, Audio and Iframes</h2>
-            </section>
-
-            <section>
-                <h2>Iframe</h2>
-            </section>
-
-            <section>
-                <h2>Video</h2>
-            </section>
-
-            <section data-background-video="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
-                <h2>Background Video</h2>
-            </section>
+        <div className="slides r-fit-text" >
+            <section data-markdown={basics} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
+            <section data-markdown={recursion} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
+            <section data-markdown={interfaces} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
+            <section data-markdown={generics} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
         </div>
     );
 }
