@@ -18,7 +18,6 @@ function App() {
       <section data-markdown={interfaces} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
       <section data-markdown={generics} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
       <section data-markdown={recursion} data-separator="^\n\n\n" data-separator-vertical="^\n\n"/>
-
     </div>
   );
 }

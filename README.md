@@ -2,6 +2,16 @@
 
 This is mini presentation for tech talk about TypeScript based on reveal.js
 
+# Some links
+
+[docs of typescript](https://www.typescriptlang.org/docs/)
+
+[Путь к монаде](https://www.youtube.com/watch?v=IO7g71TEz5k&ab_channel=RND.JS)
+
+[either](https://www.youtube.com/watch?v=T6Os27MKUCQ&ab_channel=HolyJS)
+
+[fp-ts](https://gcanti.github.io/fp-ts/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
